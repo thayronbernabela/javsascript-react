@@ -1,6 +1,6 @@
 import React from 'react';
-import Book from './book.jsx';
-import books from './data/books.jsx';
+import Book from './Book.jsx';
+import books from './data/Books.js';
 import styles from '../styles/BookList.module.css';
 
 /**
