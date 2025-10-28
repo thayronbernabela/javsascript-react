@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  margin: 15px 0 5px 0;
+}
+
+.book-author {
+  font-size: 1rem;
+  color: #777;
+}
